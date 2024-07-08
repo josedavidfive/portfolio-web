@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>José David Hernández Web</title>
+  <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script src="https://kit.fontawesome.com/f897daa23d.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="container">
+  <!-- ### NAVBAR SECTION ### -->
+  <header class="header">
+    <nav class="navbar">
+      <a href="#home" class="nav-logo">JDH Web</a>
+      <ul class="nav-menu">
+        <li class="nav-item"><a href="#home" class="nav-link">Inicio</a></li>
+        <li class="nav-item">
+          <a href="#profile" class="nav-link">Perfil</a>
+        </li>
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">Proyectos</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contacto</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ### HERO SECTION ### -->
+  <section class="hero" id="home">
+    <div class="hero-container">
+      <div class="hero-info">
+        <span class="header-text">¡BIENVENID@! MI NOMBRE ES</span>
+        <h1>José David Hernández</h1>
+        <h3>Desarrollador Web</h3>
+        <div class="button-group">
+          <a href="/JoseDavidHernandezCV.pdf" download="JoseDavidHernandezCV.pdf" class="button-cv"><i
+              class="fas fa-file-pdf"></i> Descargar CV</a>
+          <div class="icon-link">
+            <a href="https://github.com/Farricius" id="github"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/josedavidhernandezchacon" id="linkedin"><i
+                class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-picture">
+        <div class="my-picture"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ### PROFILE SECTION ### -->
+  <section class="profile" id="profile">
+    <div class="profile-container">
+      <div class="about-content">
+        <div class="img-side">
+          <div class="img-side-img">
+            <span><img src="assets/images/computer.jpg" alt="Computer Desk" /></span>
+          </div>
+        </div>
+        <div class="text-side">
+          <h3>PERFIL PROFESIONAL</h3>
+          <p>Mi nombre es José David, soy Técnico Superior en Desarrollo de Aplicaciones Web, cuento con<strong> año y
+              medio de experiencia</strong> en consultoras informáticas en diversos proyectos</p>
+          <p>Actualmente continúo <strong>ampliando mis conocimientos</strong> en nuevas
+            tecnologías y herramientas, especializándome en desarrollo web</p>
+          <div class="skills">
+            <img
+              src="https://skillicons.dev/icons?i=html,css,js,ts,angular,bootstrap,php,mysql,selenium,vscode,postman,git&perline=6"
+              alt="Skill Icons" id="skills" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- # MY PROJECTS SECTION # -->
+  <section class="projects" id="projects">
+    <div class="projects-title">
+      <h3>Mis proyectos</h3>
+    </div>
+    <div class="projects-container">
+      <div class="card">
+        <img src="assets/images/coffee-shop.png" alt="Image of Project 1" />
+        <div class="card-title">Melodía Café</div>
+        <div class="card-description">
+          Aplicación para trabajar con música de radio en directo y sonidos de ambiente, también permite organizar
+          tareas
+        </div>
+        <a href="https://github.com/Farricius/melodia-cafe" class="button-github"><i class="fas fa-code"></i> Ver
+          Código</a>
+        <a href="https://melodia-cafe.netlify.app/" class="button-project" target="_blank"><i
+            class="fas fa-globe-americas" target="_blank"></i> Visitar
+          Web</a>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/mario.jpg" alt="Image of Project 2" />
+        <div class="card-title">Amiibo Collection</div>
+        <div class="card-description">
+          Aplicación con información sobre figuras amiibo de Nintendo, incluye un sistema de
+          búsqueda al instante con filtros y detalles
+        </div>
+        <a href="https://github.com/Farricius/amiibo" class="button-github"><i class="fas fa-code"></i> Ver Código</a>
+        <a href="https://amiibo-collection.netlify.app/" class="button-project" target="_blank"><i
+            class="fas fa-globe-americas"></i>
+          Visitar Web</a>
+      </div>
+
+      <div class="card">
+        <img src="assets/images/cat.png" alt="Image of Project 3" />
+        <div class="card-title">English Search!</div>
+        <div class="card-description">
+          Aplicación de diccionario que muestra significados, información y pronunciación de voz para las palabras en
+          inglés
+        </div>
+        <a href="https://github.com/Farricius/english-search" class="button-github"><i class="fas fa-code"></i> Ver
+          Código</a>
+        <a href="https://english-search.netlify.app/" class="button-project" target="_blank"><i
+            class="fas fa-globe-americas"></i>
+          Visitar Web</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ### CONTACT SECTION ### -->
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h3>CONTACTO</h3>
+        <div id="myemail">
+          <span class="header-email">
+            ¡Contáctame por correo! 👇🏼</span>
+          <a href="mailto:josedavidfive@gmail.com" id="contact-email">josedavidfive@gmail.com</a>
+          <img id="letter" src="assets/images/email.png" width="200px" height="200px" alt="Image of Project 3" />
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <form action="https://submit-form.com/estUyApbO" method="POST">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" placeholder="Tu nombre" required /><br />
+          <label for="email">Correo:</label>
+          <input type="email" id="email" name="email" placeholder="Tu correo" required /><br />
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" placeholder="Escribe tu mensaje" rows="2" required></textarea><br />
+          <div class="button-container">
+            <button type="submit">Enviar mensaje</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ### FOOTER SECTION ### -->
+  <footer>
+    <div class="footer">
+      <p><strong>Copyright © 2024 - José David Hernández</strong></p>
+    </div>
+  </footer>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
