@@ -447,8 +447,8 @@ i {
 
 .projects-title h3 {
   font-size: 24px;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .projects-container {
@@ -459,8 +459,8 @@ i {
   gap: 5rem;
   justify-content: center;
   align-items: center;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .card {
