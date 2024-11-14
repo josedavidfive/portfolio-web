@@ -565,6 +565,11 @@ i {
     margin: 0px 3px;
     margin-bottom: 10px;
   }
+  
+    .card img {
+    height: 120px;
+  }
+  
 }
 
 /* CONTACT SECTION */
