@@ -364,7 +364,8 @@ i {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 60vh;
+  height: 70vh;
+
 }
 
 .about-content p {
@@ -375,9 +376,13 @@ i {
 
 .img-side-img img {
   border-radius: 1rem;
-  width: 500px;
-  height: 400px;
   margin-right: 5rem;
+  transition: transform 1.5s;
+}
+
+.img-side-img img:hover {
+  transform: scale(0.9);
+  transition: transform 1.5s;
 }
 
 .text-side h3 {
@@ -395,6 +400,7 @@ i {
   align-items: flex-end;
   color: rgb(105, 105, 105);
   font-size: 1.25rem;
+  margin-top: 30px;
 }
 
 .skills {
@@ -425,9 +431,8 @@ i {
 
   .img-side-img img {
     margin-top: 50px;
-    margin-bottom: 50px;
     width: 300px;
-    height: 187px;
+    height: auto;
     margin-right: 0;
   }
 
@@ -565,11 +570,11 @@ i {
     margin: 0px 3px;
     margin-bottom: 10px;
   }
-  
-    .card img {
+
+  .card img {
     height: 120px;
   }
-  
+
 }
 
 /* CONTACT SECTION */
